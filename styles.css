@@ -1,0 +1,90 @@
+#myCanvas 
+{
+  	position: absolute;
+  	left: 30px;
+ 	top: 100px;
+ 	width: 550px;
+  	height: 550px;
+}
+
+#opponentCanvas
+{
+  	position: absolute;
+  	left: 630px;
+  	top: 100px;
+  	width: 550px;
+  	height: 550px;
+}
+
+#text
+{
+	font-family: Verdana;
+	font-size: 30px;
+	color: #430c97;
+}
+
+#text1
+{
+	position: absolute;
+	top: 5px;
+	left: 190px;
+}
+
+#text2
+{
+	position: absolute;
+	top: 5px;
+	left: 670px;
+}
+
+#containerButton
+{
+	position: absolute;
+	top: 800px;
+	left: 470px;
+	font-family: Verdana;
+	font-size: 35px;	
+}
+
+#puskPlay
+{
+	color: #ff033e;
+	border-color: #ff033e;
+	text-align: center;
+	font-size: 40px;
+	color: #090b0a;
+	top: 250px;
+	border-radius: 60%;
+	height: 100px;
+			
+}
+
+#newPlay
+{
+	color: #ff033e;
+	border-color: #ff033e;
+	text-align: center;
+	font-size: 40px;
+	color: #090b0a;
+	top: 210px;
+	border-radius: 60%;
+	height: 100px;
+			
+}
+
+#victory
+{
+	left: 50px;
+	width: 700px;
+	height: 730px;
+	background-image: url(assets/victory.png);
+
+}
+
+#defeat
+{
+	left: 50px;
+	width: 700px;
+	height: 730px;
+	background-image: url(assets/defeat.png);
+}

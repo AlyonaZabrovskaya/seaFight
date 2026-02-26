@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link href="styles.css" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Морской бой</title>
+</head>
+<body>
+		<div id="text">
+			<h2 id="text1">Моё поле</h2> <h2 id="text2" style="display: none;" >Поле противника</h2>
+		
+		<canvas id="myCanvas" width="550" height="550" style="border: 5px solid #69bdf7;"></canvas>
+		<canvas id="opponentCanvas" width="550" height="550" style="border: 5px solid #003153; display: none;"></canvas>
+		</div>
+		<div id="containerButton" style="display: none;">
+			<button id="puskPlay">В бой!</button>
+			<button id="newPlay" style="display: none;">Новая игра!</button>
+		</div>
+		<div id="gameResult">
+			<div id="victory" style="display: none;"></div>
+			<div id="defeat" style="display: none;"></div>
+		</div>
+		<script src="script.js"> </script>
+</body>
+</html>
